@@ -23,10 +23,9 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row items-center justify-between w-full">
             <input
               className="p-2 flex w-full rounded-md text-gray-600 outline outline-2  outline-offset-2"
-              type="email"
               placeholder="Enter your message"
-              name="email"
-              id="email"
+              name="message"
+              required
             />
             <button
               className="bg-slate-300 text-gray-600 font-semibold rounded-md w-[200px]  ml-4 my-4 px-6 py-2"
